@@ -1,9 +1,9 @@
-#PySimpleRPC
+# PySimpleRPC
 
 during my distributed systems course , i decided to create a simple RPC model that simulated what RPC should do . it got a little bit complex while i was doing it cuz i got somehow excited and did changes to the core system at least twice.
 
 
-##How it works
+## How it works
 * my concept while implementing this RPC was that i want to use functions from a certain module from one client and it runs the code at the server then return me the results, and try to do it without adding any weird code in the application itself , all u have to have is an extra module in ur application and run the client stub and ur good to go.
  
 1.  The Server stub runs and starts listening for client stubs to connect. 
@@ -26,7 +26,7 @@ during my distributed systems course , i decided to create a simple RPC model th
 * This is a simple [Graph][1] showing the request route.
   [1]: https://docs.google.com/drawings/d/1Ykiz8VoJoPFvBSVkeXshoSPedxcgmmNmcTh7nK0a0i0/edit
 
-##How to test it and run it
+## How to test it and run it
 1.  Run ServerStub.py
 2.  Run ClientStub.py
 3.  Run ClientStub.py with args '-c conf2' 
